@@ -1,0 +1,26 @@
+.dock {
+	height: 50px; 
+	text-align:right;
+	position: relative; 
+}
+.dock-container {
+	position: absolute;
+	height: 50px;
+	padding-left: 20px;
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color:#13a213;
+	position: absolute;
+	top: 2px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	border: 0px solid #000; 
+}
+.dock-item img {
+	border: 0px solid #000; 
+	margin: 5px 0px 0px; 
+	width: 100%; 
+}
